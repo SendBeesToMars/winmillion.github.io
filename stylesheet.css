@@ -1,7 +1,7 @@
 @import "compass/css3";
 
 body {
-    background: grey;
+    background: black;
     font-family: 'PT Mono', monospace;
 }
 
@@ -208,7 +208,7 @@ body {
     text-shadow: 1px 0 blue;
     top: 0;
     color: white;
-    background: black;
+    background: grey;
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
     animation: noise-anim-2 3s infinite linear alternate-reverse;
