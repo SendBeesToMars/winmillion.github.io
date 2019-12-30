@@ -208,7 +208,7 @@ body {
     text-shadow: 1px 0 blue;
     top: 0;
     color: white;
-    background: grey;
+    background: black;
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
     animation: noise-anim-2 3s infinite linear alternate-reverse;
@@ -225,7 +225,9 @@ table {
     text-align: left;
     padding: 8px;
   }
-  
+  tr{
+    background-color: grey;
+  }
   tr:nth-child(even) {
     background-color: #dddddd;
   }
