@@ -13,7 +13,6 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
 }
 
 @keyframes noise-anim {
@@ -218,17 +217,25 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  }
+}
   
-  td, th {
+td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
-  tr{
+}
+tr{
     background-color: grey;
-  }
-  tr:nth-child(even) {
+}
+tr:nth-child(even) {
     background-color: #dddddd;
-  }
+}
+
+#ohi{
+    position:fixed;
+    top: 50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 
